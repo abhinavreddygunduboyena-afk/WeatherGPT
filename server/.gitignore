@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Environment files & secrets (Never commit secrets to Git)
+.env
+.env.local
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
